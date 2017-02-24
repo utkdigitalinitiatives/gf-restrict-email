@@ -127,10 +127,10 @@ class GWEmailDomainControl extends GW_Email_Domain_Validator { }
 # Configuration
 
 new GW_Email_Domain_Validator( array(
-    'form_id' => 326,
-    'field_id' => 1,
-    'domains' => array( 'gmail.com', 'hotmail.com', '.co.uk' ),
-    'validation_message' => __( 'Oh no! <strong>%s</strong> email accounts are not eligible for this form.' ),
+    'form_id' => 20,
+    'field_id' => 19,
+    'domains' => array( 'utk.edu', 'vols.utk.edu', '.tennessee.edu' ),
+    'validation_message' => __( '<strong>%s</strong> not valid. Please use a University of Tennessee email address.' ),
     'mode' => 'limit'
 ) );
 
